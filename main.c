@@ -84,7 +84,7 @@ char *readLine(){
 
 char **readLines(){
     int size = 5;
-    char *end = "end";
+    const char *end = "end";
     char **lines = malloc(sizeof(char *) * size);
     int i = 0;
 
